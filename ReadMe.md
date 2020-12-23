@@ -1,1 +1,1 @@
-Test using Google Colab https://colab.research.google.com/
+[Google Colab](https://colab.research.google.com/) For learning tensorflow. 
