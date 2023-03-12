@@ -41,7 +41,7 @@ f -  refers to the function/ hypothesis (Model) to create predictions.\
 ŷ (y-hat) - refers to the predicted value\
 y - is refers to the true value, targets y
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### How to represents f?
 
@@ -68,7 +68,7 @@ As is shown on the image above on the 3rd graph, where b = 1, the line value n t
 \
 On the 1st graph it shows where **w** (slope) is 0, therefore the line is constant depends on what the **b**(y axis) value is.
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### How to find the value for w,b?
 
@@ -98,15 +98,15 @@ $$
 Therefore we can convert rewrite the equation to be:
 
 $$
-J_{(w,b)}={\frac 1 {2m}} \sum_{i=1}^m ( f_{w,b}(x^{(i)})  - y{(i)})^2
+J_{(w,b)} = {\frac 1 {2m}} \sum_{n=1}^m (f_{w,b}(x^{(i)}) - y^{(i)} )^2
 $$
 
 $$
-f_{w,b}(x) = wx+b
+f_{w,b}(x) = wx + b
 $$
 
 $$
-J_{(w,b)} = {\frac 1 {2m}} {\sum_{i=1}^{m}} ((wx+b)^{(i)} - y^{(i)})^{2}
+J_{(w,b)} = {\frac 1 {2m}} \sum_{n=1}^m ((wx^{(i)}+b) - y^{(i)} )^2
 $$
 
 ## [Cost function intuition](https://www.coursera.org/learn/machine-learning/lecture/FthLz/cost-function-intuition)
@@ -124,7 +124,7 @@ This will just the adjust slope of the line.\
 \
 Image above shows that when the cost function is plot against (ŷ - y) the difference between the predicted value for (1,1) is 1-1=0 the sum of sqre(0) for 3 plot in the graph will show :
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
