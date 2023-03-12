@@ -9,10 +9,8 @@ To find the min of the value for w and b, we can use gradient decent to systemat
 To find the min J(w,b) we can start out as w and b ot be zero, Increment the value of w and b to find the min J(w,b).
 
 $$
-\boxed {W = w - \alpha {\frac d {dw}} J(w,b)}
+W = w - \alpha {\frac d {dw}} J(w,b)
 $$
-
-
 
 * W - new w value
 * w - old w value
@@ -27,12 +25,12 @@ $$
 * With the alpha describe how big of a step to towards the direction.
 
 $$
-\boxed {B = b - \alpha {\frac d {db}} J(w,b)}
+B = b - \alpha {\frac d {db}} J(w,b)
 $$
 
 To find the valley in the graph using gradient descent, repeat the calculation until the 2 points (w,b) converge. during the gradient descent process, it will need to simulataneously update w and b to a new value. **(Correct way)**
 
-![](../.gitbook/assets/image.png)
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 $$
 \
