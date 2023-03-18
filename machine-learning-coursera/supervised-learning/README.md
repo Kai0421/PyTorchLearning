@@ -7,14 +7,12 @@ Refers to where an input value is mapped to an output label during training phas
 
 ## Linear Regression Model
 
-<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 From the all the data in the scatter graph plot, drew a straight line that best matches the data set. From the line it predicts the value of the \[i.e] housing price.
 
 ### Notation for the data (Terminology)
 
-\
-\
 x = "input" variable feature. In this case it will be size in feet square which is the size of the house. \
 \
 y = "output" variable/ "target variable". This is the value the model will predict, which is the price of the house.\
@@ -23,7 +21,7 @@ m = number of training example\
 \
 (x,y) = single training example. For a single training example is a row from the table of the training data. where x (size in feet square), and y (price of the house)
 
-<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
 $$
 (x^{(i)}, y^{(i)})
@@ -41,7 +39,7 @@ f -  refers to the function/ hypothesis (Model) to create predictions.\
 ŷ (y-hat) - refers to the predicted value\
 y - is refers to the true value, targets y
 
-<figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### How to represents f?
 
@@ -68,7 +66,7 @@ As is shown on the image above on the 3rd graph, where b = 1, the line value n t
 \
 On the 1st graph it shows where **w** (slope) is 0, therefore the line is constant depends on what the **b**(y axis) value is.
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### How to find the value for w,b?
 
@@ -114,19 +112,17 @@ $$
 \
 we want to minimizeJ(w,b). To simplify the equation we can set b to be 0 and rewrite it to be s
 
-<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
-\
 Since b = 0, there for the graph is going through the origin when x = 0. \
 \
 This will just the adjust slope of the line.\
 \
-\
 Image above shows that when the cost function is plot against (ŷ - y) the difference between the predicted value for (1,1) is 1-1=0 the sum of sqre(0) for 3 plot in the graph will show :
 
-<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 $$
 = {\frac 1 {2m}}(0^2+0^2+0^2) = {\frac 1 {2m} * 0^2} = {\frac 1 {2(3)}*0^2} = {\frac1 6} * 0 = 0
@@ -140,9 +136,9 @@ This show on the graph on the right, just like a positive quadratic equation gra
 \
 How do u choose the J(w), by choosing the smallest y value, where the w is 1. Thats why when running the linear regression where u run the cost function to find the value of w that minimised J&#x20;
 
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### [Visualizing the cost function](https://www.coursera.org/learn/machine-learning/lecture/QI1h6/visualizing-the-cost-function)
 
@@ -150,5 +146,5 @@ In the previous example where we set b value to 0, it shows in a shape of parabo
 \
 
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 

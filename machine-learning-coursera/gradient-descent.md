@@ -41,7 +41,7 @@ $$
 Look into the derivative of the function of J which is the equation in the box:
 
 $$
-W = w - \alpha \boxed{{\frac d {dw}} j(w)}
+W = w - \alpha \boxed{{\frac d {dw}} J(w)}
 $$
 
 Is to draw a tangent line, which is a straight line that touches the curve at that point. The **Slope** of this line is the derivative of the **function J** at this point.&#x20;
@@ -75,7 +75,7 @@ This will end up increating the number of the value of w, this will get you clos
 
 when gradient decent already reach local minimum. When the cost function have more than 1 local minimum.
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (2).png" alt=""><figcaption></figcaption></figure>
 
 When drawing a tangent line at the local minimum the slop will be 0, and therefore the gradient decent becomes:
 
@@ -103,10 +103,92 @@ There are more than 1 local mininum but there can be only 1 global minimum.
 
 > _But turns out that using the squared error cost function there can be only be 1 single global minimum and there cannot have a local minimum. This is called a convex function._
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 ### [Batch Gradient Descent](https://www.coursera.org/learn/machine-learning/lecture/349Ay/running-gradient-descent)
 
 * refers to the fact that on every step of the gradient descent, we're looking at all of the training examples, instead of just a subset of the training data. It uses all the training data.&#x20;
 
 There are other gradient descent that doesnt look into the entire set of the training data.&#x20;
+
+### Gradient Descent With Vectorization
+
+#### Without vectorization example:
+
+$$
+w_1 = w_1 -0.1d_1 \\
+w_2 = w_2-0.1d_2 \\
+...
+w_{16} = w_{16}-0.1d_{16}
+$$
+
+```python
+for j in range(0, 16):
+    w[j] = w[j] - 0.1* d[j]
+```
+
+#### With Vectorization
+
+$$
+\vec{w} = \vec{w} -0.1*\vec{d}
+$$
+
+```python
+w = w -0.1 * d
+```
+
+### Gradient Descent With Multi linear regression
+
+Previously:&#x20;
+
+$$
+w_j = w_j - \alpha {\frac \partial {\partial w_j}} J{(w_1,...w_n, b)}
+$$
+
+$$
+b =b - \alpha {\frac \partial {\partial b}} J{(w_1,...w_n, b)}
+$$
+
+Now turns into:
+
+$$
+w_j = w_j-\alpha \boxed{{\frac \partial {\partial w_j}} J(\vec{w}, b)}
+$$
+
+
+
+This box turns into:
+
+$$
+w_1 = w_1 - \alpha \boxed{\frac 1 m \sum_{i=1}^m(f_{\vec{w},b}(\vec{x}^{(i)}) - y^{(i)})x_1^{(i)}} \\
+... \\
+... \\
+w_n = w_n - \alpha \boxed{\frac 1 m \sum_{i=1}^m(f_{\vec{w},b}(\vec{x}^{(i)}) - y^{(i)})x_n^{(i)}} \\
+$$
+
+This is only where j = 1 which mean that this is only for 1 feature within the multiple feature.
+
+$$
+b = b -\alpha \boxed{{\frac \partial {\partial b}}J(\vec{w}, b)}
+$$
+
+This turns into:
+
+$$
+b = b -\alpha {\frac 1 m} \sum_{i=1}^m (f_{\vec{w}, b}(\vec{x}^{(i)}) -y^{(i)})
+$$
+
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+### Alternative to gradient descent
+
+* Normal equation
+  * Only for linear regression to solve for w, b without iterations
+* Disadvantage
+  * Doesn't generalize to other learning algorithms.
+  * Slow when number of feature is large ( > 10,000)
+* What you need to know
+  * Normal equation method may be used in machine learning libraries that implement linear regression.&#x20;
+  * Almost no machine learning practitioners should implement the normal equation method themselves but if youre using a mature machine learning library and call linear regression, Theres a chance tht on the backend it will be using this to solve for w and b.
+
+> _**Gradient descent is the recommended method for finding parameters w, b.**_&#x20;
