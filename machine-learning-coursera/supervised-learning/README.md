@@ -136,7 +136,7 @@ This show on the graph on the right, just like a positive quadratic equation gra
 \
 How do u choose the J(w), by choosing the smallest y value, where the w is 1. Thats why when running the linear regression where u run the cost function to find the value of w that minimised J&#x20;
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -146,5 +146,5 @@ In the previous example where we set b value to 0, it shows in a shape of parabo
 \
 
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 

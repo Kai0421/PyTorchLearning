@@ -19,7 +19,7 @@ $$
 
 * X(i) - in this case is consist of 4 numbers and sometimes this is called a vector. &#x20;
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
 ### Model:
 
@@ -83,7 +83,7 @@ This Numpy dot() function is natively built-in to numpy, is a vectorized impleme
 > 2. Resolving your code to run faster. The reason its able to run faster is because the Numpy dot() function able to use parallel hardware in your computer and this is true whether you're running this on a normal computer that is on a normal computer CPU or if you're using GPU.\
 >    This makes it much more efficient than the for loop or the sequential calculation. &#x20;
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 ### How do vectorization works
 

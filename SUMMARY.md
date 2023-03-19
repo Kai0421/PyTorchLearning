@@ -5,3 +5,5 @@
     * [Multiple Feature](machine-learning-coursera/supervised-learning/multiple-feature.md)
   * [Unsupervised Learning](machine-learning-coursera/unsupervised-learning.md)
   * [Gradient Descent](machine-learning-coursera/gradient-descent.md)
+  * [Learning Rate](machine-learning-coursera/learning-rate.md)
+  * [Feature Engineering](machine-learning-coursera/feature-engineering.md)
