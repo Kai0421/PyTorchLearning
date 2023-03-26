@@ -28,7 +28,7 @@ $$f_{\vec{w},b}(x) = w_1x+w_2x^2+w_3x^3+ b$$
 
 When using squaring or cubing the value feature scaling is much more important. So that the feature is in more comparable range of value.
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Choice of Feature
 

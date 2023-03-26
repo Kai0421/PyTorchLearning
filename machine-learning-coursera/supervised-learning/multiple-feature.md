@@ -19,7 +19,7 @@ $$
 
 * X(i) - in this case is consist of 4 numbers and sometimes this is called a vector. &#x20;
 
-<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Model:
 

@@ -12,7 +12,7 @@ Sometimes you see that the learning rate increases through iteration. Due to lea
 
     &#x20;
 
-    <figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 When running gradient descent, usually use a range of alpha 0.001, 0,01, 0.1 or 1
 
@@ -21,4 +21,4 @@ Just running it a handful of iteration and look at the learning curve and choose
 This helps to find the value that is too small and to large to understand the range. and we can find from that the value that work just right.\
 
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (2).png" alt=""><figcaption></figcaption></figure>

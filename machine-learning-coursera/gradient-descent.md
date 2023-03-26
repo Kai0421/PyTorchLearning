@@ -30,7 +30,7 @@ $$
 
 To find the valley in the graph using gradient descent, repeat the calculation until the 2 points (w,b) converge. during the gradient descent process, it will need to simulataneously update w and b to a new value. **(Correct way)**
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 $$
 \
@@ -48,7 +48,7 @@ Is to draw a tangent line, which is a straight line that touches the curve at th
 
 To get the slope of the tangent, you can draw a line straight down and across to find the slope using pythagorus.&#x20;
 
-<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
 
 * When the tangent is pointing up and to the right, this means that the derivative is positive, so is greater than 0.
 
@@ -96,7 +96,7 @@ W = w - \alpha \boxed { {\frac d {dw}} J(w,b)} -> {\frac 1 m} \sum_{i=1}^m(f_{w,
 $$
 
 $$
-W = b - \alpha \boxed { {\frac d {db}} J(w,b)} -> {\frac 1 m} \sum_{i=1}^m(f_{w,b}(x^{(i)}) -y^{(i)})
+B = b - \alpha \boxed { {\frac d {db}} J(w,b)} -> {\frac 1 m} \sum_{i=1}^m(f_{w,b}(x^{(i)}) -y^{(i)})
 $$
 
 There are more than 1 local mininum but there can be only 1 global minimum.
@@ -178,7 +178,7 @@ $$
 b = b -\alpha {\frac 1 m} \sum_{i=1}^m (f_{\vec{w}, b}(\vec{x}^{(i)}) -y^{(i)})
 $$
 
-<figure><img src="../.gitbook/assets/image (2) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (2) (2).png" alt=""><figcaption></figcaption></figure>
 
 ### Alternative to gradient descent
 
@@ -244,7 +244,7 @@ $$
 x_1 = \frac {x_1 - \mu_1} {\sigma_1}
 $$
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
 Rule of thumb:
 
@@ -282,7 +282,7 @@ If $$J(\vec{w}, b)$$, descreases by $$\le \epsilon$$in one iteration, _**declare
 
 Convergence means hopefully you have found parameters w and b that are close to the minimum possible value of J. But usually find that choosing the right threshold epsilon is pretty difficult. tend to look at the graph like the one on the legt, rather than rely on automatic convergence tests.&#x20;
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
